@@ -1,0 +1,1 @@
+<img src="{{@$item}}" class="mx-wd-95 img-fluid" width="120px">

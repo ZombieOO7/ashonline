@@ -1,0 +1,40 @@
+@include('frontend.template.header')
+@php
+    $content = str_replace('[USER_FULL_NAME]',@$user->full_name,$content);
+@endphp
+</tr>
+<tr>
+    <td>
+        <table style="text-align:left;margin: 10px;">
+            <tr>
+                <td>
+                    @php
+                    $content = str_replace('[USER_FULL_NAME]',@$user->full_name,$content);
+                    @endphp
+                    {!!@$content!!}
+                </td>
+            </tr>
+            <tr>
+                <th>{{__('formname.parent.full_name')}}</th>
+                <td>{{@$paymentDetail->parent->full_name}}</td>
+            </tr>
+            <tr>
+                <th>{{__('formname.payment.currency')}}</th>
+                <td>{{strtoupper(@$paymentDetail->currency)}}</td>
+            </tr>
+            <tr>
+                <th>{{__('formname.payment.amount')}}</th>
+                <td>{{strtoupper(@$paymentDetail->amount)}}</td>
+            </tr>
+            <tr>
+                <th>{{__('formname.payment.payment_date')}}</th>
+                <td>{{@$paymentDetail->proper_payment_date}}</td>
+            </tr>
+            <tr>
+                <th>{{__('formname.description')}}</th>
+                <td>{{@$paymentDetail->description}}</td>
+            </tr>
+        </table>
+    </td>
+</tr>
+@include('frontend.template.footer')

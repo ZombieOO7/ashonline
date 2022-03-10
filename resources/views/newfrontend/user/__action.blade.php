@@ -1,0 +1,2 @@
+<a class="btn rounded btn-primary text-white" href="{{@$invoiceRoute}}"><span class="fa fa-eye"></span></a>
+<a class="btn rounded btn-success text-white" href="{{@$downloadRoute}}"><span class="fa fa-download"></span></a>

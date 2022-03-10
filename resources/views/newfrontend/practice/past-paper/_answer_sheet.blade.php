@@ -1,0 +1,1 @@
+<a href="{{route('past.paper.detail',['uuid'=>@$paper->uuid])}}"><img src="{{asset('newfrontend/images/lck_ic.svg')}}" class="mr-1 wt14">Answers</a>

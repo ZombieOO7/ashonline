@@ -1,0 +1,1 @@
+<button type="button" class="btn cmplt_btn" data-subject_id="{{ @$subject_id }}" data-mock_test_id="{{ @$mock_test_id }}">Complete Mock</button>

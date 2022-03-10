@@ -1,0 +1,1 @@
+<img id="blah" src="{{ isset($subject)? url($subject->thumb_path):'' }}" alt="" height="50px;" width="50px;" />

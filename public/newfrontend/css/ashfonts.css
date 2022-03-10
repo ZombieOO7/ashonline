@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'ashace';
+  src:  url('../fonts/ashace.eot?tjlcwv');
+  src:  url('../fonts/ashace.eot?tjlcwv#iefix') format('embedded-opentype'),
+  url('../fonts/ashace.ttf?tjlcwv') format('truetype'),
+  url('../fonts/ashace.woff?tjlcwv') format('woff'),
+  url('../fonts/ashace.svg?tjlcwv#ashace') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="ash-"], [class*=" ash-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ashace' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ash-info:before {
+  content: "\e91c";
+  color: #616161;
+}
+.ash-chat:before {
+  content: "\e91a";
+  color: #4caf50;
+}
+.ash-download:before {
+  content: "\e91b";
+  color: #03a9f4;
+}
+.ash-left-thin-chevron:before {
+  content: "\e919";
+}
+.ash-right-thin-chevron:before {
+  content: "\e917";
+}
+.ash-tick:before {
+  content: "\e918";
+}
+.ash-coupons:before {
+  content: "\e915";
+}
+.ash-delete:before {
+  content: "\e916";
+}
+.ash-blue_ic1:before {
+  content: "\e90b";
+  color: #fff;
+}
+.ash-blue_ic2:before {
+  content: "\e90c";
+  color: #fff;
+}
+.ash-blue_ic3:before {
+  content: "\e90d";
+  color: #fff;
+}
+.ash-dark_ic1:before {
+  content: "\e90e";
+  color: #fff;
+}
+.ash-dark_ic2:before {
+  content: "\e90f";
+  color: #fff;
+}
+.ash-dark_ic3:before {
+  content: "\e910";
+  color: #fff;
+}
+.ash-dark_ic4:before {
+  content: "\e911";
+  color: #fff;
+}
+.ash-down_arrow:before {
+  content: "\e912";
+  color: #616161;
+}
+.ash-gray_star:before {
+  content: "\e913";
+  color: #bdbdbd;
+}
+.ash-yellow_star:before {
+  content: "\e914";
+  color: #ffc107;
+}
+.ash-menu:before {
+  content: "\e909";
+}
+.ash-cancel:before {
+  content: "\e90a";
+}
+.ash-abc:before {
+  content: "\e900";
+  color: #fff;
+}
+.ash-arrow_right:before {
+  content: "\e901";
+  color: #03a9f4;
+}
+.ash-cart:before {
+  content: "\e902";
+}
+.ash-create:before {
+  content: "\e903";
+  color: #fff;
+}
+.ash-experience:before {
+  content: "\e904";
+  color: #fff;
+}
+.ash-maths:before {
+  content: "\e905";
+  color: #fff;
+}
+.ash-none-verbal-reasoning:before {
+  content: "\e906";
+  color: #fff;
+}
+.ash-subjects:before {
+  content: "\e907";
+  color: #fff;
+}
+.ash-verbal-reasoning:before {
+  content: "\e908";
+  color: #fff;
+}
